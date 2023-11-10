@@ -9,165 +9,222 @@
     <link rel="stylesheet" href="main.css" />
     <script defer src="main.js"></script>
     <title>Document</title>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
   </head>
-  <body>
-    <div class="section main">
-      <!-- <button class="mode">MODE</button> -->
-      <div class="nav-links">
-        <ul>
-          <li><a href="#about-section">ABOUT</a></li>
-          <li><a href="#portfolio-section">PORTFOLIO</a></li>
-          <li><a href="#contact-section">CONTACT</a></li>
-        </ul>
+  <body id="quitar">
+    <div class="container-all" id="move-content">
+      <div class="section main">
+        <!-- <button class="mode">MODE</button> -->
+        <div class="nav-links" id="show-menu">
+          <ul>
+            <li><a href="#about-section">ABOUT</a></li>
+            <li><a href="#portfolio-section">PORTFOLIO</a></li>
+            <li><a href="#contact-section">CONTACT</a></li>
+          </ul>
+        </div>
         <div id="icon-menu">
           <i class="fas fa-bars"></i>
         </div>
-      </div>
-      <div class="Iam">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae
-          <span>consequatur rerum sed! Porro</span>.
-        </p>
-        <button><a href="https://wa.me/447463628490">LET'S TALK</a></button>
-      </div>
-    </div>
-    
-    <div class="section about" id="about-section">
-      <div class="about-section1">
-        <h2>ABOUT</h2>
-        <div class="personal-description">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis,
-            Lorem ipsum dolor sit amet. illo!
-          </p>
-          <button onclick="openPopup()">Read More</button>
-        </div>
-      </div>
-      <div class="about-section2">
-        <h2>SKILLS</h2>
-        <div class="skills">
-          <i class="fab fa-html5"></i>
-          <p>HTML5</p>
-          
-          <i class="fab fa-css3"></i>
-          <p>CSS3</p>
-          
-          <i class="fab fa-js"></i>
-          <p>JavaScript</p>
-          
-          <i class="fab fa-react"></i>
-          <p>React JS</p>
-        </div>
-      </div>
-      <div class="popup" id="popupMessage">
-        <h1>dslkclsncklsd</h1>
-        <div class="popup_content">
-          <img src="#" alt="">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quia magnam in aut odio qui temporibus expedita consequatur alias, nulla quam ipsa commodi ab harum culpa blanditiis, est dolore delectus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor maiores rerum illum voluptatem expedita! Aperiam modi dolorem cum. Iure culpa velit quo, consectetur architecto eum magnam possimus necessitatibus dolorum.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quia magnam in aut odio qui temporibus expedita consequatur alias, nulla quam ipsa commodi ab harum culpa blanditiis, est dolore delectus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor maiores rerum illum voluptatem expedita! Aperiam modi dolorem cum. Iure culpa velit quo, consectetur architecto eum magnam possimus necessitatibus dolorum.
-          </p>
-        </div>
-        <button onclick="closePopup()"><i class="fas fa-times"></i></button>
-      </div>
-    </div>
-    
-    <div class="section portfolio" id="portfolio-section">
-      <h2>PORTFOLIO</h2>
-      <div class="projects">
-        <div class="project-1">
-          <h3>Movies app</h3>
-          <a target="_blank" href="https://p3-movies-react.netlify.app"><img src="/img/Screenshot 2023-11-02 183455.png" alt="" /></a>
-          
-          
-          <div class="tech">
-            <h4><i class="fab fa-react"></i> React</h4>
-            <h4><i class="fab fa-js"></i> Java Script</h4>
+        <div class="Iam">
+          <div id="msj">
+            ON THE ROUTE TO BEING A SOFTWARE DEVELOPER
+            <span class="name">SEBASTIAN RODRIGUEZ.</span>
           </div>
-          
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
-            aliquid fuga saepe. Neque minus tempora quibusdam delectus,
-            consequatur eaque illo.
-          </p>
-          <div class="source&live">
-            <button>
-              <i class="fas fa-external-link-alt"></i>
-              <a target="_blank" href="https://p3-movies-react.netlify.app"> LIVE</a>
-            </button>
-            <button><i class="fab fa-github"></i><a href="https://github.com/SebastianRodriguezds/movie-app.git"> SOURCE</a></button>
-          </div>
-        </div>
-        <div class="project-2">
-          <h3>Register and Login</h3>
-          <a target="_blank" href="https://p4-kanban-react.netlify.app/">
-
-            <img src="img/Screenshot 2023-11-02 183638.png" alt="" />
-          </a>
-          <div class="tech">
-            <h4><i class="fab fa-react"></i> React</h4>
-            <h4><i class="fab fa-js"></i> Java Script</h4>
-          </div>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident
-            aliquid fuga saepe. Neque minus tempora quibusdam delectus,
-            consequatur eaque illo.
-          </p>
-          <div class="source&live">
-            <button>
-              <i class="fas fa-external-link-alt"></i>
-              <a target="_blank" href="https://p4-kanban-react.netlify.app/"> LIVE</a>
-            </button>
-            <button><i class="fab fa-github"></i><a href="https://github.com/SebastianRodriguezds/kanbas-app.git"> SOURCE</a></button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="contact-section" class="section contact">
-      <div class="contact-section1">
-        <h2>CONTACT</h2>
-        <div class="contact-msj">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis,
-            Lorem ipsum dolor sit amet. illo!
-          </p>
-          <button>
-            <a href="mailto:sebastianrodriguezds@gmail.com"
-            >sebastianrodriguezds@gmail.com</a
-            >
+          <button class="talk">
+            <a href="https://wa.me/447463628490">LET'S TALK</a>
           </button>
         </div>
       </div>
-      <div class="contact-section2">
-        <h2>LINKS</h2>
-        <div class="links">
-          <div class="link-item">
-            <a target="_blank" href="https://github.com/SebastianRodriguezds">
-              <i class="fab fa-github"></i>
-              <p>GitHub</p>
 
-            </a>
+      <div class="section about" id="about-section">
+        <div class="about-section1">
+          <h2>ABOUT</h2>
+          <div class="personal-description">
+            <p>
+              Releasing my coding superpowers! Click to learn a little about the
+              aspiring junior developer's story
+            </p>
+            <button onclick="openPopup()">Read More</button>
           </div>
-          <div class="link-item">
-            <a target="_blank" href="https://www.linkedin.com/in/SebastianRodriguezdS">
+        </div>
+        <div class="about-section2">
+          <h2>SKILLS</h2>
+          <div class="skills">
+            <i class="fab fa-html5">
+              <p>HTML5</p>
+            </i>
 
-              <i class="fab fa-linkedin"></i>
-              <p>Linkedin</p>
+            <i class="fab fa-css3">
+              <p>CSS3</p>
+            </i>
+
+            <i class="fab fa-js">
+              <p>JavaScript</p>
+            </i>
+
+            <i class="fab fa-react">
+              <p>React JS</p>
+            </i>
+          </div>
+        </div>
+        <div class="popup" id="popupMessage">
+          <h1>About Me</h1>
+          <div class="popup_content">
+            <img src="./img/profile-pic.png" alt="" />
+            <p>
+              Hello there! I'm Sebastian, currently in my second year of
+              Computing Information Systems at the University of Greenwich.
+              Originally from Argentina, I've called London home for the past
+              five years, where I've been immersing myself in both the vibrant
+              tech scene and the diverse cultural experiences this city
+              offers.<br />
+
+              I started this journey of learning programming during the COVID
+              period, initially as a hobby. However, as I dug deeper, I
+              discovered that I enjoyed it and that there aren't many things
+              similar to the satisfaction that comes from being able to solve a
+              problem you were stuck on for hours, which ultimately led me to
+              want to pursue this.
+
+              <br />
+              I am set apart by my unwavering commitment to delivering quality
+              work and ensuring tasks are completed to the best of my ability.
+              Collaborating in team environments is something I enjoy, based on
+              university work experiences where I have contributed effectively
+              to group projects.
+
+              <br />
+              I am excited about the possibilities that technology offers and I
+              would like to continue expanding my skills, which is why I am
+              willing to learn about new technologies that the company requires.
+            </p>
+          </div>
+          <button onclick="closePopup()"><i class="fas fa-times"></i></button>
+        </div>
+      </div>
+
+      <div class="section portfolio" id="portfolio-section">
+        <h2>PORTFOLIO</h2>
+        <div class="projects">
+          <div class="project-1">
+            <h3>Movies app</h3>
+            <a target="_blank" href="https://p3-movies-react.netlify.app"
+              ><img src="/img/movie.png" alt=""
+            /></a>
+
+            <div class="tech">
+              <h4><i class="fab fa-react"></i> React</h4>
+              <h4><i class="fab fa-js"></i> Java Script</h4>
+            </div>
+
+            <p>
+              The project is set up to display a list of popular movies on the
+              main page, allowing users to view specific details of a movie by
+              clicking on it. It utilizes React Router to manage page navigation
+              and makes use of API requests to obtain movie data.
+            </p>
+            <div class="source&live">
+              <button>
+                <i class="fas fa-external-link-alt"></i>
+                <a target="_blank" href="https://p3-movies-react.netlify.app">
+                  LIVE</a
+                >
+              </button>
+              <button>
+                <i class="fab fa-github"></i
+                ><a
+                  target="_blank"
+                  href="https://github.com/SebastianRodriguezds/movie-app.git"
+                >
+                  SOURCE</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="project-2">
+            <h3>Kanban</h3>
+            <a target="_blank" href="https://p4-kanban-react.netlify.app/">
+              <img src="img/kanb.png" alt="" />
             </a>
+            <div class="tech">
+              <h4><i class="fab fa-react"></i> React</h4>
+              <h4><i class="fab fa-js"></i> Java Script</h4>
+            </div>
+            <p>
+              A Kanban board created using React and the react-beautiful-dnd
+              library, which is an elegant drag-and-drop library specifically
+              designed for React, it simplifies the implementation of complex
+              drag-and-drop features, providing a smooth and visually pleasing
+              user experience.
+            </p>
+            <div class="source&live">
+              <button>
+                <i class="fas fa-external-link-alt"></i>
+                <a target="_blank" href="https://p4-kanban-react.netlify.app/">
+                  LIVE</a
+                >
+              </button>
+              <button>
+                <i class="fab fa-github"></i
+                ><a
+                  target="_blank"
+                  href="https://github.com/SebastianRodriguezds/kanbas-app.git"
+                >
+                  SOURCE</a
+                >
+              </button>
+            </div>
           </div>
         </div>
       </div>
+
+      <div id="contact-section" class="section contact">
+        <div class="contact-section1">
+          <h2>CONTACT</h2>
+          <div class="contact-msj">
+            <p>
+              With an eye for design and a passion for seamless functionality, I
+              create websites that not only represent your business but elevate
+              it. Get in touch!
+            </p>
+            <button>
+              <a href="mailto:sebastianrodriguezds@gmail.com"
+                >sebastianrodriguezds@gmail.com</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="contact-section2">
+          <h2>LINKS</h2>
+          <div class="links">
+            <div class="link-item">
+              <a target="_blank" href="https://github.com/SebastianRodriguezds">
+                <i class="fab fa-github"></i>
+                <p>GitHub</p>
+              </a>
+            </div>
+            <div class="link-item">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/SebastianRodriguezdS"
+              >
+                <i class="fab fa-linkedin"></i>
+                <p>Linkedin</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p>
+          Made with <i class="fas fa-heart"></i> and
+          <i class="fas fa-coffee"></i> by Sebastian Rodriguez.
+        </p>
+      </footer>
+      <div class="main overlay" id="overlay"></div>
     </div>
-    <footer>
-      <p>
-        Made with <i class="fas fa-heart"></i> and
-        <i class="fas fa-coffee"></i> by Sebastian Rodriguez.
-      </p>
-    </footer>
-    <div class="main overlay" id="overlay" ></div>
-    
   </body>
-  </html>
-  
+</html>
