@@ -25,9 +25,10 @@ const tOriginal = "ON THE ROUTE TO BEING A WEB DEVELOPER,";
 const tSecondary = " SEBASTIAN RODRIGUEZ.";
 const msj = document.getElementById("msj");
 const durationDelete = 100;
-const durationWrite = 1000;
+const durationWrite = 100;
 
 function deleteAndWrite() {
+  console.log("deleteAndWrite called");
   let text = msj.innerText;
   let long = text.length;
 
@@ -40,14 +41,15 @@ function deleteAndWrite() {
 }
 
 function writeText() {
+  console.log("writeText called");
   let text = tOriginal + tSecondary;
   let long = msj.innerText.length;
 
-  if(long < text.length) {
-    msj.innerText = text.substring (0, long + 1);
-    setTimeout(writeText, durationDelete);
-  }else {
-    setTimeout (deleteAndWrite, durationWrite);
+  if (long < text.length) {
+    msj.innerText = text.substring(0, long + 1);
+    setTimeout(writeText, durationWrite);
+  } else {
+    setTimeout(deleteAndWrite, durationDelete);
   }
 }
 deleteAndWrite();
